@@ -37,7 +37,7 @@
         <hr>
     </div>
     <footer class="container">
-        <p>&copy; WebMarket</p>
+        <p>&copy; WebMarket</p> 
     </footer>
 </body>
 
