@@ -1,10 +1,10 @@
-<%@ page contentType = "text/html;charset=utf-8" %>
+<%@ page contentType = "text/html;charset=utf-8"%>
 <%@ page import="java.util.Date"%>
 <%@ page import="example.*" %>
 <%
     HelloWorld h = new HelloWorld();
 %>
-<html> 
+<html>
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -38,9 +38,9 @@
         <hr>
     </div>
     <footer class="container">
-        <p>&copy; WebMarket</p> 
-   
-    <%
+        <p>&copy; WebMarket</p>
+
+        <%
         Date day = new java.util.Date();
         String am_pm;
         int hour = day.getHours();
