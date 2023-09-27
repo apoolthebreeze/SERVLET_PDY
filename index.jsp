@@ -15,7 +15,7 @@
     <script>
         window.open("popup/popup1.jsp", "popup", "width=365, height=250, left=0, top=0")
     </script>
-    <title>피식대학교</title>
+    <title>코코아이모티콘샵</title>
 </head>
 
 <body>

@@ -1,6 +1,41 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
-<%! String greeting = "코미디 인재 육성 및 연구의 메카 피식대학";
+<%@ page import="java.util.ArrayList"%>
+<%@ page import="dto.Product"%>
+<jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
+
+<%! String greeting = "다양한 이모티콘샵, 코코아 이모티콘샵";
         String tagline = "하단 페이지: 확인";%>
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h3 class="display-4">
+                <%=greeting%>
+            </h3>
+        </div>
+    </div>
+    <%
+    ArrayList<Product> listOfProducts = productDAO.getAllProducts();
+    %>
+</div>
+
+<div class="container">
+    <div class="row" align="center">
+        <%
+            for (int i = 0; i < listOfProducts.size(); i++){
+                Product product = listOfProducts.get(i);
+        %>
+        <div class="col-md-4">
+            <h3><%=product.getPname()%></h3>
+            <p><%=product.getDescription()%>
+            <p><%=product.getUnitPrice()%>원
+        </div>
+        <%
+            }
+        %>
+    </div>
+    <hr>
+</div>
+
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-3">
