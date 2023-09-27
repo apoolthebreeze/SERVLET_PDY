@@ -13,9 +13,7 @@
             </h3>
         </div>
     </div>
-    <%
-    ArrayList<Product> listOfProducts = productDAO.getAllProducts();
-    %>
+    <%ArrayList<Product> listOfProducts = productDAO.getAllProducts();%>
 </div>
 
 <div class="container">
@@ -25,9 +23,17 @@
                 Product product = listOfProducts.get(i);
         %>
         <div class="col-md-4">
+            <div class="card bg-dark text-white">
+                <img src="image/product/<%=product.getProductId()%>.png" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">이모티콘 이미지 샘플</h5>
+                    <p class="card-text">출처: 카카오이모티콘샵</p>
+                </div>
+            </div>
+            
             <h3><%=product.getPname()%></h3>
             <p><%=product.getDescription()%>
-            <p><%=product.getUnitPrice()%>원
+                <p><%=product.getUnitPrice()%>원
         </div>
         <%
             }
