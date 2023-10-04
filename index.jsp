@@ -15,6 +15,7 @@
     <script>
         window.open("popup/popup1.jsp", "popup", "width=365, height=250, left=0, top=0")
     </script>
+    <link rel="stylesheet" type="text/css" href="color.css">
     <title>코코아이모티콘샵</title>
 </head>
 

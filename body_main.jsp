@@ -23,7 +23,7 @@
                 Product product = listOfProducts.get(i);
         %>
         <div class="col-md-4">
-            <div class="card bg-brown text-white">
+            <div class="card bg-white text-white">
                 <img src="image/product/<%=product.getProductId()%>.png" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h5 class="card-title">이모티콘 이미지 샘플</h5>
