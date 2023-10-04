@@ -1,5 +1,5 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
-<nav class="navbar navbar-expand navbar-white bg-brown">
+<nav class="navbar navbar-expand navbar-white">
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             카테고리

@@ -23,17 +23,19 @@
                 Product product = listOfProducts.get(i);
         %>
         <div class="col-md-4">
-            <div class="card bg-dark text-white">
+            <div class="card bg-brown text-white">
                 <img src="image/product/<%=product.getProductId()%>.png" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h5 class="card-title">이모티콘 이미지 샘플</h5>
                     <p class="card-text">출처: 카카오이모티콘샵</p>
                 </div>
             </div>
-            
+
             <h3><%=product.getPname()%></h3>
             <p><%=product.getDescription()%>
                 <p><%=product.getUnitPrice()%>원
+                    <p><a href="product_detail.jsp?id=<%=product.getProductId()%>" class="btn btn-secondary" role="button"> 상품 상세 정보 &raquo;</a>
+
         </div>
         <%
             }
@@ -42,13 +44,6 @@
     <hr>
 </div>
 
-<div class="jumbotron">
-    <div class="container">
-        <h1 class="display-3">
-            <%=greeting%>
-        </h1>
-    </div>
-</div>
 
 
 <div class="container">
@@ -60,18 +55,16 @@
     <hr>
 </div>
 
-<div class="card bg-dark text-white">
-    <img src="image/PsickOver.jpg" class="card-img" alt="...">
+<div class="card bg-white text-brown">
+    <img src="image/cardimg.png" class="card-img" alt="...">
     <div class="card-img-overlay">
-        <h5 class="card-title">‘피식대학’, 웹 예능으로 백상을 거머쥐다</h5>
-        <p class="card-text">출처: [뉴스를 만나다] [9시 뉴스] / KBS 2023.05.07.</p>
+        <h5 class="card-title">사랑하는 마음 플러스로 센스 있게 전하세요</h5>
+        <p class="card-text">출처: 카카오 이모티콘샵</p>
     </div>
 </div>
 
 <div class="list-group">
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">05학번이즈백^^</a>
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">05학번이즈히어🌆</a>
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">The PSICK SHOW🌎</a>
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">한사랑산악회⛰</a>
-    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">한사랑음악회🎷</a>
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">신규 이모티콘 ></a>
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">인기 이모티콘 ></a>
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">스타일 ></a>
 </div>
