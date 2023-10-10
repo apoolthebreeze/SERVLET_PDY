@@ -3,12 +3,13 @@
 <%@ page import="dto.Product"%>
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 
+<br><br>
 <%! String greeting = "다양한 이모티콘샵, 코코아 이모티콘샵";
         String tagline = "하단 페이지: 확인";%>
 <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color: #C8B099; padding: 5px;">
         <div class="container">
-            <h3 class="display-4">
+            <h3 class="display-4 text-center" style="background-color: #C8B099; padding: 5px;">
                 <%=greeting%>
             </h3>
         </div>
@@ -26,8 +27,8 @@
             <div class="card bg-white text-white">
                 <img src="image/product/<%=product.getProductId()%>.png" class="card-img" alt="...">
                 <div class="card-img-overlay">
-                    <h5 class="card-title">이모티콘 이미지 샘플</h5>
-                    <p class="card-text">출처: 카카오이모티콘샵</p>
+                    <h5 class="card-title" style="font-size: 15px;">이모티콘 이미지 샘플</h5>
+                    <p class="card-text" style="font-size: 10px;">출처: 카카오이모티콘샵</p>
                 </div>
             </div>
 
@@ -56,7 +57,7 @@
 </div>
 
 <div class="card bg-white text-brown">
-    <img src="image/cardimg.png" class="card-img" alt="...">
+    <img src="image/cardimg.png" class="card-img" alt="..." width="800" height="600">
     <div class="card-img-overlay">
         <h5 class="card-title">사랑하는 마음 플러스로 센스 있게 전하세요</h5>
         <p class="card-text">출처: 카카오 이모티콘샵</p>

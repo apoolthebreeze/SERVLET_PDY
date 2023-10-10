@@ -1,29 +1,34 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <nav class="navbar navbar-expand-lg bg-brown">
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent;">
             카테고리
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-             <a class="navbar-brand" href="./index.jsp">Home</a>
-             <a class="dropdown-item" href="#">로그인</a>
-             <a class="dropdown-item" href="#">구매내역</a>
-             <a class="dropdown-item" href="#">선물함</a>
-             <a class="dropdown-item" href="#">쿠폰함</a>
-             <a class="dropdown-item" href="#">좋아요</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: brown;">Home</a>
+            <a class="dropdown-item" href="#">로그인</a>
+            <a class="dropdown-item" href="#">구매내역</a>
+            <a class="dropdown-item" href="#">선물함</a>
+            <a class="dropdown-item" href="#">쿠폰함</a>
+            <a class="dropdown-item" href="#">좋아요</a>
         </div>
     </div>
 
+    <!--
     <div>
-        <img src="image\cocoa.jpg" class="img-fluid" alt="main_image">
+        <img src="image\cacao.png" class="img-fluid" alt="main_image" width="150" height="100" style="margin: 10 auto;">
+    </div>
+-->
+    <div>
+        <img src="image\C.gif" class="img-fluid" alt="main_image" style="margin-left: 100px;">
     </div>
 
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="./index.jsp">홈</a>
-            <a class="navbar-brand" href="./index.jsp">신규</a>
-            <a class="navbar-brand" href="./index.jsp">인기</a>
-            <a class="navbar-brand" href="./index.jsp">스타일</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;">홈</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;">신규</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;">인기</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;">스타일</a>
         </div>
     </div>
 </nav>

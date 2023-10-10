@@ -61,7 +61,7 @@ public class ProductRepository {
         emoji8.setUnitsInStock(1000);
         emoji8.setCondition("스타일");
         
-         Product emoji9 = new Product("P1242", "버찌가 심쿵 하트 꽃피우러 와찌!", 3000);
+         Product emoji9 = new Product("P1242", "버찌가 하트 꽃피우러 와찌!", 3000);
         emoji9.setDescription("짱크짱귀 버찌 이모티콘");
         emoji9.setCategory("큰이모티콘");
         emoji9.setManufacturer("루키");
