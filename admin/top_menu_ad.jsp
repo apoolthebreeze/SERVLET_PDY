@@ -25,11 +25,12 @@
 
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">홈</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">신규</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">인기</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">스타일</a>
-            <a class="navbar-brand" href="admin/index_ad.jsp" style="color: white;">관리자모드</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;"> 홈 </a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;"> 회원 보기/추가/수정/삭제 </a>
+            <a class="navbar-brand" href="index_ad.jsp" style="color: white;"> 상품 보기 </a>
+            <a class="navbar-brand" href="product_add.jsp" style="color: white;"> 등록 </a>
+            <a class="navbar-brand" href="index_ad.jsp" style="color: white;"> 수정/삭제 </a>
+            <a class="navbar-brand" href="../index.jsp" style="color: white;"> 일반모드 </a>
         </div>
     </div>
 </nav>

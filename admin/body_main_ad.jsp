@@ -1,7 +1,7 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="dto.Product"%>
-<jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
+<%@ page import="dao.ProductRepository"%>
 
 <br><br>
 <%! String greeting = "다양한 이모티콘샵, 코코아 이모티콘샵";
@@ -14,7 +14,10 @@
             </h3>
         </div>
     </div>
-    <%ArrayList<Product> listOfProducts = productDAO.getAllProducts();%>
+    <%
+    ProductRepository dao = ProductRepository.getInstance();
+    ArrayList<Product> listOfProducts = dao.getAllProducts();
+    %>
 </div>
 
 <div class="container">
@@ -25,7 +28,7 @@
         %>
         <div class="col-md-4">
             <div class="card bg-white text-white">
-                <img src="image/product/<%=product.getFilename()%>.png" class="card-img" alt="...">
+                <img src="../image/product/<%=product.getFilename()%>.png" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h5 class="card-title" style="font-size: 15px;">이모티콘 이미지 샘플</h5>
                     <p class="card-text" style="font-size: 10px;">출처: 카카오이모티콘샵</p>
@@ -35,7 +38,7 @@
             <h3><%=product.getPname()%></h3>
             <p><%=product.getDescription()%>
                 <p><%=product.getUnitPrice()%>원
-                    <p><a href="product_detail.jsp?id=<%=product.getProductId()%>" class="btn btn-secondary" role="button"> 상품 상세 정보 &raquo;</a>
+                    <p><a href="product_detail_ad.jsp?id=<%=product.getProductId()%>" class="btn btn-secondary" role="button"> 상품 상세 정보 &raquo;</a>
 
         </div>
         <%
