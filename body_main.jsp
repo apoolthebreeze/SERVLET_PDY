@@ -14,8 +14,9 @@
             </h3>
         </div>
     </div>
-    <%ArrayList<Product> listOfProducts = productDAO.getAllProducts();%>
 </div>
+
+<%ArrayList<Product> listOfProducts = productDAO.getAllProducts();%>
 
 <div class="container">
     <div class="row" align="center">
@@ -25,7 +26,7 @@
         %>
         <div class="col-md-4">
             <div class="card bg-white text-white">
-                <img src="image/product/<%=product.getFilename()%>.png" class="card-img" alt="...">
+                <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                 <div class="card-img-overlay">
                     <h5 class="card-title" style="font-size: 15px;">이모티콘 이미지 샘플</h5>
                     <p class="card-text" style="font-size: 10px;">출처: 카카오이모티콘샵</p>
@@ -39,7 +40,7 @@
 
         </div>
         <%
-            }
+            } // 반복문 끝
         %>
     </div>
     <hr>

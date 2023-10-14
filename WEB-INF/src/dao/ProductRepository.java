@@ -35,7 +35,7 @@ public class ProductRepository {
         emoji3.setCondition("인기 이모티콘");
         emoji3.setFilename("P1236.png");
 
-         Product emoji4 = new Product("P1237", "멍멍하개", 2000);
+        Product emoji4 = new Product("P1237", "멍멍하개", 2000);
         emoji4.setDescription("멍멍하는 개 이모티콘");
         emoji4.setCategory("재밌는");
         emoji4.setManufacturer("그모");
@@ -43,7 +43,7 @@ public class ProductRepository {
         emoji4.setCondition("신규 이모티콘");
         emoji4.setFilename("P1237.png");
         
-         Product emoji5 = new Product("P1238", "GO라니 4", 2000);
+        Product emoji5 = new Product("P1238", "GO라니 4", 2000);
         emoji5.setDescription("고라니 이모티콘");
         emoji5.setCategory("재밌는");
         emoji5.setManufacturer("그모");
@@ -51,7 +51,7 @@ public class ProductRepository {
         emoji5.setCondition("신규 이모티콘");
         emoji5.setFilename("P1238.png");
         
-         Product emoji6 = new Product("P1239", "커플 망그러진 곰2", 2000);
+        Product emoji6 = new Product("P1239", "커플 망그러진 곰2", 2000);
         emoji6.setDescription("커플 사이에 사용하기 좋은 이모티콘");
         emoji6.setCategory("귀여운");
         emoji6.setManufacturer("유랑");
@@ -59,7 +59,7 @@ public class ProductRepository {
         emoji6.setCondition("신규 이모티콘");
         emoji6.setFilename("P1239.png");
         
-         Product emoji7 = new Product("P1240", "학식먹는 햄찌리", 2500);
+        Product emoji7 = new Product("P1240", "학식먹는 햄찌리", 2500);
         emoji7.setDescription("대학교 다니는 햄스터");
         emoji7.setCategory("MD추천");
         emoji7.setManufacturer("이짜나");
@@ -67,7 +67,7 @@ public class ProductRepository {
         emoji7.setCondition("스타일");
         emoji7.setFilename("P1240.png");
         
-         Product emoji8 = new Product("P1241", "열정! 근육토끼 핑순이", 2000);
+        Product emoji8 = new Product("P1241", "열정! 근육토끼 핑순이", 2000);
         emoji8.setDescription("근토 핑순이 이모티콘");
         emoji8.setCategory("이모티콘 플러스 전용 상품");
         emoji8.setManufacturer("곰국");
@@ -75,7 +75,7 @@ public class ProductRepository {
         emoji8.setCondition("스타일");
         emoji8.setFilename("P1241.png");
         
-         Product emoji9 = new Product("P1242", "버찌가 하트 꽃피우러 와찌!", 3000);
+        Product emoji9 = new Product("P1242", "버찌가 하트 꽃피우러 와찌!", 3000);
         emoji9.setDescription("짱크짱귀 버찌 이모티콘");
         emoji9.setCategory("큰이모티콘");
         emoji9.setManufacturer("루키");
@@ -98,8 +98,8 @@ public class ProductRepository {
         return listOfProducts;
     }
     
-public Product getProductById(String productId) {
-		Product productById = null;
+    public Product getProductById(String productId) {
+        Product productById = null;
 
 		for (int i = 0; i < listOfProducts.size(); i++) {
 			Product product = listOfProducts.get(i);

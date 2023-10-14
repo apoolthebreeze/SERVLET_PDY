@@ -39,7 +39,7 @@
                                     <h4><%=product.getUnitPrice()%>원</h4>
 
                                     <div class="card bg-dark text-white">
-                                        <img src="image/product/<%=product.getFilename()%>.png" class="card-img" alt="...">
+                                        <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                                         <div class="card-img-overlay">
                                             <h5 class="card-title">상품 이미지 원본</h5>
                                             <p class="card-text">출처 : 카카오 이모티콘샵</p>

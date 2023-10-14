@@ -40,7 +40,7 @@
       stock = Long.valueOf(unitsInStock);
 
     Enumeration files = multi.getFileNames();
-    String fname = (String)files.nextElement();
+    String fname = (String) files.nextElement();
     String fileName = multi.getFilesystemName(fname);
 
    ProductRepository dao = ProductRepository.getInstance();
@@ -54,7 +54,7 @@
    newProduct.setCategory(category);
    newProduct.setUnitsInStock(stock);
    newProduct.setCondition(condition);
-    newProduct.setFilename(fileName);
+   newProduct.setFilename(fileName);
 
    dao.addProduct(newProduct);
 
