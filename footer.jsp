@@ -1,11 +1,17 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
-<%@ page import="example.*" %>
-
+<%@ page import = "example.*" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.TimeZone" %>
+<%@ page import="java.util.Date" %>
 <footer class="container">
-    <p> <br> &copy;대표: 박다영. 고유번호: 20210983, 연락처: dayoung4821@naver.com<br>
-        <% 
-        ShopTime time= new ShopTime();
+    <p>&copy;대표 : 박다영, 고유번호 : 20210983, 연락처 : dayoung4821@naver.com <br>
+        <%
+            ShopTime time = new ShopTime();
+            Date now = new Date();
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+            dateFormat.setTimeZone(TimeZone.getTimeZone("Asia/Seoul"));
+            String koreanTime = dateFormat.format(now);
         %>
-        오늘 날짜와 시간: <%=time.timenow() %>
+        오늘 한국 시간: <%= koreanTime %>
     </p>
 </footer>
