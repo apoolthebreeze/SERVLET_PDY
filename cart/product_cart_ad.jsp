@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <jsp:include page="../top_menu.jsp" />
+    <jsp:include page="../top_menu_ad.jsp" />
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">장바구니</h1>
@@ -34,7 +34,7 @@
             <table width="100%">
                 <tr>
                     <td align="left"><a href="product_cart_remove_all.jsp?cartId=<%=cartId%>" class="btn btn-danger">삭제하기</a></td>
-                    <td align="right"><a href="../order/order_info.jsp?cartId=<%= cartId %>" class="btn btn-success">주문하기</a></td>
+                    <td align="right"><a href="#" class="btn btn-success">주문하기</a></td>
                 </tr>
             </table>
 
