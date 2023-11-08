@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 
 
     <script type="text/javascript">
@@ -26,14 +27,14 @@
                 dateInput.value = '';
             }
         }
-        
-         function openDaumPostcode() {
+
+        function searchAddress() {
             new daum.Postcode({
-                oncomplete: function (data) {
-                    const zipCode = data.zonecode;
-                    const address = data.address;
-                    document.getElementsByName("zipCode")[0].value = zipCode;
-                    document.getElementsByName("addressName")[0].value = address;
+                oncomplete: function(data) {
+                    const zipCodeInput = document.getElementsByName("zipCode")[0];
+                    const addressNameInput = document.getElementsByName("addressName")[0];
+                    zipCodeInput.value = data.zonecode;
+                    addressNameInput.value = data.address;
                 }
             }).open();
         }
@@ -75,17 +76,30 @@
                     </select>
                 </div>
             </div>
+            <!--
             <div class="form-group row">
                 <label class="col-sm-2">우편번호</label>
                 <div class="col-sm-3">
                     <input name="zipCode" type="text" class="form-control" />
                 </div>
             </div>
-
+            -->
+            <div class="form-group row">
+                <label class="col-sm-2">우편번호</label>
+                <div class="col-sm-3">
+                    <input name="zipCode" type="text" class="form-control" placeholder="우편번호"/>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-primary" onclick="searchAddress()">우편번호 검색</button>
+                </div>
+            </div>
             <div class="form-group row">
                 <label class="col-sm-2">주소</label>
                 <div class="col-sm-5">
-                    <input name="addressName" type="text" class="form-control" />
+                    <input name="addressName" type="text" class="form-control" placeholder="주소" />
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-primary" onclick="searchAddress()">주소 검색</button>
                 </div>
             </div>
             <div class="form-group row">
