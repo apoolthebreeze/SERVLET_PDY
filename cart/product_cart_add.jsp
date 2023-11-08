@@ -48,5 +48,5 @@
 		list.add(goods);
 	}
 
-	response.sendRedirect("product_cart.jsp?id=" + id); // 장바구니 화면 페이지로 이동
+	response.sendRedirect("product_cart_ad.jsp?id=" + id); // 장바구니 화면 페이지로 이동
 %>

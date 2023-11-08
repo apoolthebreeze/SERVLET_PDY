@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <jsp:include page="../top_menu_ad.jsp" />
+    <jsp:include page="../admin/top_menu_ad.jsp" />
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">장바구니</h1>
@@ -76,7 +76,7 @@
                     <th></th>
                 </tr>
             </table>
-            <a href="../index.jsp" class="btn btn-secondary"> &laquo; 쇼핑 계속하기</a>
+            <a href="../admin/index_ad.jsp" class="btn btn-secondary"> &laquo; 쇼핑 계속하기</a>
         </div>
         <hr>
     </div>
