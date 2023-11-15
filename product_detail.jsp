@@ -40,9 +40,9 @@
         </div>
     </div>
     <%
-		String id = request.getParameter("id");
-		Product product = productDAO.getProductById(id);
-	%>
+      String id = request.getParameter("id");
+      Product product = productDAO.getProductById(id);
+   %>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
