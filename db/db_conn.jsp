@@ -8,7 +8,7 @@
 	try {
 		String url = "jdbc:mysql://localhost:3306/cacaoemoticon_20210983?characterEncoding=utf8";
 		String user = "root";
-		String password = "123123";
+		String password = "4821";
 
 		Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(url, user, password);

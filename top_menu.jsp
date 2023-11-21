@@ -5,7 +5,7 @@
             카테고리
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="navbar-brand" href="index.jsp" style="color: brown;">상품목록(기본 홈)</a>
+            <a class="navbar-brand" href="index.jsp" style="color: brown;">HOME</a>
             <a href= "../login/memberlogin.jsp" class= "dropdown-item">로그인</a>
             <a class="dropdown-item" href="#">구매내역</a>
             <a class="dropdown-item" href="#">선물함</a>
@@ -25,7 +25,7 @@
 
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">홈</a>
+            <a class="navbar-brand" href="./index.jsp" style="color: white;"> 상품 목록(기본 홈)</a>
             <a class="navbar-brand" href="./index.jsp" style="color: white;">신규</a>
             <a class="navbar-brand" href="./index.jsp" style="color: white;">인기</a>
             <a class="navbar-brand" href="./index.jsp" style="color: white;">스타일</a>
