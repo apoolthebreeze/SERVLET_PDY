@@ -48,4 +48,8 @@
 	}
 
 	response.sendRedirect("product_cart.jsp?id=" + id); // 장바구니 화면 페이지로 이동
+<<<<<<< HEAD
 %>
+=======
+%>
+>>>>>>> 706b722e964ea4f66a86f5adf8ba3958062399b8
