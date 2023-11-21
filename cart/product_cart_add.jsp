@@ -25,11 +25,10 @@
 			break;
 		}
 	}
-
 	ArrayList<Product> list = (ArrayList<Product>) session.getAttribute("cartlist");
 	if (list == null) { 
 		list = new ArrayList<Product>();
-		session.setAttribute("cartlist", list); 
+		session.setAttribute("cartlist", list); // 세션 키, 값 설정
 	}
 
 	int cnt = 0;
@@ -48,5 +47,5 @@
 		list.add(goods);
 	}
 
-	response.sendRedirect("product_cart_ad.jsp?id=" + id); // 장바구니 화면 페이지로 이동
+	response.sendRedirect("product_cart.jsp?id=" + id); // 장바구니 화면 페이지로 이동
 %>

@@ -30,5 +30,5 @@
       session.invalidate();
    }
 
-   response.sendRedirect("product_cart_ad.jsp");
+   response.sendRedirect("product_cart.jsp");
 %>
