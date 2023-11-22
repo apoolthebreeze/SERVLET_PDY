@@ -12,11 +12,11 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </head>
+</head>
 
 <body>
     <jsp:include page="../top_menu.jsp" />
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
         <div class="container">
             <h1 class="display-3">로그인이 필요합니다.</h1>
         </div>
@@ -41,7 +41,14 @@
                     <label for="inputPassword" class="sr-only">Password</label>
                     <input type="password" class="form-control" placeholder="Password" name='j_password' required>
                 </div>
-                <button class="btn btn btn-lg btn-success btn-block" type="submit">로그인</button>
+                <style>
+                    .btn-brown {
+                        background-color: #8B4513;
+                        color: white;
+                    }
+                </style>
+                <button class="btn btn btn-lg btn-brown btn-block" type="submit">로그인</button>
+
             </form>
         </div>
     </div>

@@ -5,6 +5,13 @@
 <%@ page import="java.sql.*"%>
 <%@ include file="db/db_conn.jsp"%>
 
+<div class="card bg-white text-brown">
+    <img src="image/cardimg.png" class="card-img" alt="..." width="800" height="600">
+    <div class="card-img-overlay">
+        <h5 class="card-title">사랑하는 마음 플러스로 센스 있게 전하세요</h5>
+        <p class="card-text">출처: 카카오 이모티콘샵</p>
+    </div>
+</div>
 <br><br>
 <%! String greeting = "다양한 이모티콘샵, 코코아 이모티콘샵";
         String tagline = "하단 페이지: 확인";%>
@@ -17,7 +24,6 @@
         </div>
     </div>
 </div>
-
 <div class="container">
     <div class="row" align="center">
         <%
@@ -62,13 +68,7 @@
     <hr>
 </div>
 
-<div class="card bg-white text-brown">
-    <img src="image/cardimg.png" class="card-img" alt="..." width="800" height="600">
-    <div class="card-img-overlay">
-        <h5 class="card-title">사랑하는 마음 플러스로 센스 있게 전하세요</h5>
-        <p class="card-text">출처: 카카오 이모티콘샵</p>
-    </div>
-</div>
+
 
 <div class="list-group">
     <a href="#" class="list-group-item list-group-item-action active" aria-current="true">신규 이모티콘 ></a>
