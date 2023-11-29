@@ -18,20 +18,20 @@
     <jsp:include page="../top_menu.jsp" />
     <div class="jumbotron text-center">
         <div class="container">
-            <h1 class="display-3">로그인이 필요합니다.</h1>
+            <h1 class="display-3">일반 사용자 모드 접근<br>로그인이 필요합니다.</h1>
         </div>
     </div>
     <div class="container" align="center">
         <div class="col-md-4 col-md-offset-4">
             <h3 class="form-signin-heading">Please sign in</h3>
             <%
-				String error = request.getParameter("error");
-				if (error != null) {
-					out.println("<div class='alert alert-danger'>");
-					out.println("아이디와 비밀번호를 확인해 주세요");
-					out.println("</div>");
-				}
-			%>
+            String error = request.getParameter("error");
+            if (error != null) {
+               out.println("<div class='alert alert-danger'>");
+               out.println("아이디와 비밀번호를 확인해 주세요");
+               out.println("</div>");
+            }
+         %>
             <form class="form-signin" action="j_security_check" method="post">
                 <div class="form-group">
                     <label for="inputUserName" class="sr-only">User Name</label>
@@ -48,7 +48,9 @@
                     }
                 </style>
                 <button class="btn btn btn-lg btn-brown btn-block" type="submit">로그인</button>
-
+            </form>
+             <form action="../member/member_join.jsp" method="post">
+                <button class="btn btn btn-lg btn-brown btn-block" type="submit">회원가입</button>
             </form>
         </div>
     </div>
