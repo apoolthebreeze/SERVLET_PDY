@@ -29,6 +29,7 @@
             <a class="navbar-brand" href="./index.jsp" style="color: white;">신규</a>
             <a class="navbar-brand" href="./index.jsp" style="color: white;">인기</a>
             <a class="navbar-brand" href="./index.jsp" style="color: white;">스타일</a>
+            <a class="navbar-brand" href="/BoardListAction.do?pageNum=1" style="color: white;">게시판(고객센터)</a>
             <a class="navbar-brand" href="admin/index_ad.jsp" style="color: white;">관리자모드</a>
         </div>
     </div>
