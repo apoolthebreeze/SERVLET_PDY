@@ -16,11 +16,6 @@
         </div>
     </div>
 
-    <!--
-    <div>
-        <img src="image\cacao.png" class="img-fluid" alt="main_image" width="150" height="100" style="margin: 10 auto;">
-    </div>
--->
     <div>
         <img src="image\C.gif" class="img-fluid" alt="main_image" style="margin-left: 100px;">
     </div>

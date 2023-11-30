@@ -18,7 +18,7 @@
     <jsp:include page="../top_menu.jsp" />
     <div class="jumbotron text-center">
         <div class="container">
-            <h1 class="display-3">일반 사용자 모드 접근<br>로그인이 필요합니다.</h1>
+            <h1 class="display-3">일반 사용자 모드 접근<br>로그인이 필요합니다!</h1>
         </div>
     </div>
     <div class="container" align="center">

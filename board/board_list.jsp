@@ -39,7 +39,6 @@
     </head>
     
     <body>
-        <!-- 메뉴 -->
         <jsp:include page="../top_menu.jsp" />
         
         <div class="jumbotron">

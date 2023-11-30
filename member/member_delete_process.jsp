@@ -8,8 +8,8 @@
     
     // db 연동
     String sql = "select * from member"; // sql문 -- 전체 조회
-	pstmt = conn.prepareStatement(sql); //객체생성
-	rs = pstmt.executeQuery(); //쿼리문실행
+	pstmt = conn.prepareStatement(sql); // 객체 생성
+	rs = pstmt.executeQuery(); // 쿼리문 실행
 
     while (rs.next()) {
         String test = rs.getString("id");

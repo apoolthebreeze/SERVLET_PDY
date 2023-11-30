@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="../js/validation.js"></script>
-        <title>회원 정보</title>
+        <title>회원정보</title>
         <script type="text/javascript">
             function deleteConfirm(id) {
                 if (confirm("해당 회원을 삭제합니다!!") == true)

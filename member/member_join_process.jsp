@@ -25,7 +25,7 @@
     String sql = "insert into member values(?,?,?,?,?,?,?,?,?)";
 
     pstmt = conn.prepareStatement(sql); // 쿼리문 몸체만 넣기
-    pstmt.setString(1, id); // 각 필드 설정 - ? 순서대로
+    pstmt.setString(1, id); // 각 필드 설정 - 순서대로
     pstmt.setString(2, password);
     pstmt.setString(3, name);
     pstmt.setString(4, gender);
