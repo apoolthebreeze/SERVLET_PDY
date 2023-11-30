@@ -89,7 +89,7 @@
                             <span class="ico-common ico-like"></span>
                         </button>
                     </div>
-                    <ul class="new__images"  style="display: flex;">
+                    <ul class="new__images" style="display: flex;">
                         <li class="new__image" style="margin-right: 10px;">
                             <img class="new__image-default" src="https://item.kakaocdn.net/do/ef0c230a7a49ad90b5ac105ac75f9f678f324a0b9c48f77dbce3a43bd11ce785" alt="예뻐라와 이뻐라의 따뜻한 겨울이야기" />
                             <img class="new__image-hover" src="https://item.kakaocdn.net/do/ef0c230a7a49ad90b5ac105ac75f9f6715b3f4e3c2033bfd702a321ec6eda72c" alt="예뻐라와 이뻐라의 따뜻한 겨울이야기 상세" />
@@ -116,7 +116,7 @@
                             <span class="ico-common ico-like"></span>
                         </button>
                     </div>
-                    <ul class="new__images"  style="display: flex;">
+                    <ul class="new__images" style="display: flex;">
                         <li class="new__image" style="margin-right: 10px;">
                             <img class="new__image-default" src="https://item.kakaocdn.net/do/03b3c3b2262acbf95f2378bb6458e8e98f324a0b9c48f77dbce3a43bd11ce785" alt="병알병알병알" />
                             <img class="new__image-hover" src="https://item.kakaocdn.net/do/03b3c3b2262acbf95f2378bb6458e8e915b3f4e3c2033bfd702a321ec6eda72c" alt="병알병알병알 상세" />
@@ -143,7 +143,7 @@
                             <span class="ico-common ico-like"></span>
                         </button>
                     </div>
-                    <ul class="new__images"  style="display: flex;">
+                    <ul class="new__images" style="display: flex;">
                         <li class="new__image" style="margin-right: 10px;">
                             <img class="new__image-default" src="https://item.kakaocdn.net/do/fae203cb8512acb1e5f79c8ac40cac428f324a0b9c48f77dbce3a43bd11ce785" alt="토끼소녀는 댜기뿐이야!" />
                             <img class="new__image-hover" src="https://item.kakaocdn.net/do/fae203cb8512acb1e5f79c8ac40cac4215b3f4e3c2033bfd702a321ec6eda72c" alt="토끼소녀는 댜기뿐이야! 상세" />
@@ -165,5 +165,5 @@
             </ul>
         </div>
     </main>
-    
+
     <hr>

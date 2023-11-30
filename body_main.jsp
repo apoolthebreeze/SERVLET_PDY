@@ -37,14 +37,14 @@
             <div class="card bg-white text-white">
                 <img src="image/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">
                 <div class="card-img-overlay">
-                <h5 class="card-title" style="font-size: 15px;">이모티콘 이미지 샘플</h5>
-                <p class="card-text" style="font-size: 10px;">출처: 카카오이모티콘샵</p>
+                    <h5 class="card-title" style="font-size: 15px;">이모티콘 이미지 샘플</h5>
+                    <p class="card-text" style="font-size: 10px;">출처: 카카오이모티콘샵</p>
+                </div>
             </div>
-        </div>
             <h3><%=rs.getString("p_name")%></h3>
             <p><%=rs.getString("p_description")%>
-            <p><%=rs.getString("p_UnitPrice")%>원
-            <p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
+                <p><%=rs.getString("p_UnitPrice")%>원
+                    <p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
         </div>
         <%
          } // 반복문 끝난 이후 db 연결 종료   
