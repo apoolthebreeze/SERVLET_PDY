@@ -3,8 +3,8 @@
 <%@ page import="com.oreilly.servlet.multipart.*"%>
 <%@ page import="java.util.Enumeration" %>
 <%@ page import="java.sql.*"%>
-<%@ include file="../db/db_conn.jsp" %>
 <%@ page import="java.time.LocalDate" %>
+<%@ include file="../db/db_conn.jsp" %>
 
 <%
     // 앞에서 id 받아오기
@@ -21,19 +21,21 @@
     LocalDate _regist_day = LocalDate.now();
     String  regist_day = String.valueOf(_regist_day);
 
-    //DB 연동
-    String sql = "insert into member values(?,?,?,?,?,?,?,?,?)";
+    out.println(id + password + name + gender);
 
+    String sql = "UPDATE member SET id=?, name=?, password=?, birth=?, gender=?, mail=?, phone=?, address=?, regist_day=? WHERE id=?";
     pstmt = conn.prepareStatement(sql); // 쿼리문 몸체만 넣기
-    pstmt.setString(1, id); // 각 필드 설정 - ? 순서대로
-    pstmt.setString(2, password);
-    pstmt.setString(3, name);
-    pstmt.setString(4, gender);
-    pstmt.setString(5, birth);
+
+    pstmt.setString(1, id);
+    pstmt.setString(2, name); // 각 필드 설정 - ? 순서대로
+    pstmt.setString(3, password);
+    pstmt.setString(4, birth);
+    pstmt.setString(5, gender);
     pstmt.setString(6, mail);
     pstmt.setString(7, phone);
-    pstmt.setString(8, address);   
+    pstmt.setString(8, address);
     pstmt.setObject(9, regist_day);
+    pstmt.setString(10, id);
 
     pstmt.executeUpdate(); // 최종 SQL 쿼리 실행
 
@@ -42,5 +44,5 @@
     if (conn != null)
         conn.close();
 
-    response.sendRedirect("../index.jsp");
+    response.sendRedirect("member_view.jsp?edit=m_update");
 %>
