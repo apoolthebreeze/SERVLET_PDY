@@ -26,9 +26,9 @@
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="./index.jsp" style="color: white;"> 상품 목록(기본 홈)</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">신규</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">인기</a>
-            <a class="navbar-brand" href="./index.jsp" style="color: white;">스타일</a>
+            <a class="navbar-brand" href="./item_new.jsp" style="color: white;">신규</a>
+            <a class="navbar-brand" href="./item_hot.jsp" style="color: white;">인기</a>
+            <a class="navbar-brand" href="./item_style.jsp" style="color: white;">스타일</a>
             <a class="navbar-brand" href="/BoardListAction.do?pageNum=1" style="color: white;">게시판(고객센터)</a>
             <a class="navbar-brand" href="admin/index_ad.jsp" style="color: white;">관리자모드</a>
         </div>

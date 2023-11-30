@@ -6,19 +6,19 @@
 <%@ include file="db/db_conn.jsp"%>
 
 <div class="card bg-white text-brown">
-    <img src="image/cardimg.png" class="card-img" alt="..." width="800" height="600">
+    <img src="image/newbanner.png" class="card-img" alt="..." width="2000" height="300">
     <div class="card-img-overlay">
-        <h5 class="card-title">사랑하는 마음 플러스로 센스 있게 전하세요</h5>
-        <p class="card-text">출처: 카카오 이모티콘샵</p>
+        <h5 class="card-title" style="color: white; padding: 5px;">신박템은 여기! 따끈따끈 신상 이모티콘</h5>
+        <p class="card-text" style="color: white; padding: 3px;">출처: 카카오 이모티콘샵</p>
     </div>
 </div>
 <br><br>
-<%! String greeting = "다양한 이모티콘샵, 코코아 이모티콘샵";
+<%! String greeting = "신규 이모티콘";
         String tagline = "하단 페이지: 확인";%>
 <div class="container">
-    <div class="jumbotron" style="background-color: #C8B099; padding: 5px;">
+    <div class="jumbotron" style="background-color: #FFF170; padding: 5px;">
         <div class="container">
-            <h3 class="display-4 text-center" style="background-color: #C8B099; padding: 5px;">
+            <h3 class="display-4 text-center" style="background-color: #FFF170; padding: 5px;">
                 <%=greeting%>
             </h3>
         </div>

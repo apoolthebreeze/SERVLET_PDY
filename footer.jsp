@@ -27,6 +27,14 @@
         %>
         오늘 한국 시간: <%= koreanTime %>
     </p>
+        <div class="container text-center">
+     <div class="mt-4">
+         <p style="color: gray;">
+            현재 페이지 버퍼 용량: <%= out.getBufferSize() %> <br>
+            남은 페이지 버퍼 용량: <%= out.getRemaining() %>
+         </p>
+        </div>
+    </div>
 </footer>
 
 
