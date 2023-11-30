@@ -7,7 +7,7 @@
 	String id = request.getParameter("id");
 	if (id == null || id.trim().equals("")) {
 		response.sendRedirect("../index.jsp");
-		return;
+		return; // 여기에 return 추가
 	}
 
 	ProductRepository dao = ProductRepository.getInstance();
@@ -15,6 +15,7 @@
 	Product product = dao.getProductById(id);
 	if (product == null) {
 		response.sendRedirect("../exception/product_not_found.jsp");
+		return; // 여기에 return 추가
 	}
 
 	ArrayList<Product> goodsList = dao.getAllProducts();
@@ -48,8 +49,4 @@
 	}
 
 	response.sendRedirect("product_cart.jsp?id=" + id); // 장바구니 화면 페이지로 이동
-<<<<<<< HEAD
 %>
-=======
-%>
->>>>>>> 706b722e964ea4f66a86f5adf8ba3958062399b8
