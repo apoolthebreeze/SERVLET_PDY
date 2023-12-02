@@ -3,13 +3,19 @@
 ### 3주차 9월 13일: 메인 페이지 모듈화 완료 (피식대학),  forward 액션 태그 확인 완료, 날짜 출력 소스 분리 완료
 ### 6주차 10월 4일 : cacaoemoticon shop으로 변경, 쇼핑몰 상품 상세 페이지 추가 
 ### 7주차 10월 10일 : cacaoemoticon shop 이미지 크기, 텍스트 중앙 정렬, 배경 색 변경 완료 (https://textanim.com/)
-![jsp-main--sfgdd run goorm site_index jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/934674d9-4e70-499e-b08b-68fe60af588a)# SERVLET_PDY
+메인페이지
+![jsp-main--sfgdd run goorm site_index jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/934674d9-4e70-499e-b08b-68fe60af588a)
+
 
 ### 9주차 10월 25일: cacaoemoticon shop 로그인 기능 추가, 보안처리 (연습 문제-관리자 로그인 완료)
+관리자 모드 로그인 페이지
 ![jsp-main--sfgdd run goorm site_admin_index_ad jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/c67d20b6-b469-4d05-8f8f-832b43226866)
+
+관리자 모드 메인 페이지
 ![jsp-main--sfgdd run goorm site_admin_index_ad jsp (1)](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/dc37222c-a939-4a99-a2bc-84fb4b644169)
 
 ### 10주차 11월 1일: 세션 및 장바구니 기능 추가 (연습문제-소스코드 수정완료)
+상품 상세 정보 페이지
 ![jsp-main--sfgdd run goorm site_product_detail jsp_id=P1237](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/c34204c0-5e9b-479d-825a-317859f6bf29)
 
 ### 11주차 11월 8일: 주문처리 페이지 추가, (구현문제- 배송일 당일(x), 국가명 SELECT박스, 우편번호&주소 검색입력 완료)
