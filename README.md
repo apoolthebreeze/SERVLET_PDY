@@ -2,23 +2,23 @@
 ### 2주차 9월 6일: 프로젝트 환경 설정, HELLO WORLD 확인 완료, 쇼핑몰 메인 페이지 [index.jsp: 실행/수정 완료]
 ### 3주차 9월 13일: 메인 페이지 모듈화 완료 (피식대학),  forward 액션 태그 확인 완료, 날짜 출력 소스 분리 완료
 ### 6주차 10월 4일 : cacaoemoticon shop으로 변경, 쇼핑몰 상품 상세 페이지 추가 
-### 7주차 10월 10일 : cacaoemoticon shop 이미지 크기, 텍스트 중앙 정렬, 배경 색 변경 완료 (https://textanim.com/)
-# 메인페이지
+# 7주차 10월 10일 : cacaoemoticon shop 이미지 크기, 텍스트 중앙 정렬, 배경 색 변경 완료 (https://textanim.com/)
+### 메인페이지
 ![jsp-main--sfgdd run goorm site_index jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/934674d9-4e70-499e-b08b-68fe60af588a)
 
 
-### 9주차 10월 25일: cacaoemoticon shop 로그인 기능 추가, 보안처리 (연습 문제-관리자 로그인 완료)
-관리자 모드 로그인 페이지
+# 9주차 10월 25일: cacaoemoticon shop 로그인 기능 추가, 보안처리 (연습 문제-관리자 로그인 완료)
+### 관리자 모드 로그인 페이지
 ![jsp-main--sfgdd run goorm site_admin_index_ad jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/c67d20b6-b469-4d05-8f8f-832b43226866)
 
-관리자 모드 메인 페이지
+### 관리자 모드 메인 페이지
 ![jsp-main--sfgdd run goorm site_admin_index_ad jsp (1)](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/dc37222c-a939-4a99-a2bc-84fb4b644169)
 
-### 10주차 11월 1일: 세션 및 장바구니 기능 추가 (연습문제-소스코드 수정완료)
-상품 상세 정보 페이지
+# 10주차 11월 1일: 세션 및 장바구니 기능 추가 (연습문제-소스코드 수정완료)
+### 상품 상세 정보 페이지
 ![jsp-main--sfgdd run goorm site_product_detail jsp_id=P1237](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/c34204c0-5e9b-479d-825a-317859f6bf29)
 
-### 11주차 11월 8일: 주문처리 페이지 추가, (구현문제- 배송일 당일(x), 국가명 SELECT박스, 우편번호&주소 검색입력 완료)
+# 11주차 11월 8일: 주문처리 페이지 추가, (구현문제- 배송일 당일(x), 국가명 SELECT박스, 우편번호&주소 검색입력 완료)
 ![jsp-main--sfgdd run goorm site_cart_product_cart jsp_id=P1243](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/51ad4bd7-194c-4270-af69-ce5b03461c0f)
 ![jsp-main--sfgdd run goorm site_order_order_end jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/f62c36be-255a-45de-a338-18e479137c1e)
 
