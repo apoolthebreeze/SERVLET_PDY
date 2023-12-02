@@ -3,7 +3,7 @@
 ### 3주차 9월 13일: 메인 페이지 모듈화 완료 (피식대학),  forward 액션 태그 확인 완료, 날짜 출력 소스 분리 완료
 ### 6주차 10월 4일 : cacaoemoticon shop으로 변경, 쇼핑몰 상품 상세 페이지 추가 
 ### 7주차 10월 10일 : cacaoemoticon shop 이미지 크기, 텍스트 중앙 정렬, 배경 색 변경 완료 (https://textanim.com/)
-메인페이지
+# 메인페이지
 ![jsp-main--sfgdd run goorm site_index jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/934674d9-4e70-499e-b08b-68fe60af588a)
 
 
