@@ -12,8 +12,14 @@
 
 ## 10월 10일 : cacaoemoticon shop 이미지 크기, 텍스트 중앙 정렬, 배경 색 변경 완료 (https://textanim.com/)
 
-### - 메인페이지
+### - 메인페이지 (
 ![jsp-main--sfgdd run goorm site_index jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/934674d9-4e70-499e-b08b-68fe60af588a)
+
+
+### - 오류 페이지
+![jsp-main--sfgdd run goorm site_order_item_hot jsp](https://github.com/apoolthebreeze/SERVLET_PDY/assets/112855245/277bf92e-4929-4f83-aff1-f828a765f029)
+
+
 
 ---
 
